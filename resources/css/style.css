@@ -1,0 +1,137 @@
+/* ================================*/
+   /* BASIC SETUP */
+/* ================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Titillium Web',sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.3;
+}
+/* ================================*/
+   /*REUSEABLE COMPONENTS */
+/* ================================*/
+.row{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+/* section{
+    padding: 8rem;
+} */
+ul li{
+    list-style: none;
+}
+
+   /* HEADER */
+   
+   h1{
+    font-size: 4.2rem;
+    color: #fff;
+   }
+
+   h2{
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+   }
+
+   h3{
+    font-size: 2.4rem;
+    font-weight: 600;
+   }
+   h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 2.5rem;
+   }
+   .box{
+    padding: 1%;
+   }
+
+   .box p{
+    font-size: 1.6rem;
+    font-weight: 300;
+
+   }
+
+   .clearfix::after{
+    content:"";
+    display:block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+   }
+
+ 
+   /* paragraph */
+ .little-description{
+    font-size: 1.8rem;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 3rem;
+ }
+
+    
+
+/* ================================*/
+   /* SERVICES SECTION*/
+/* ================================*/
+.services-section{
+    color:#fff;
+    text-align: center;
+    background: linear-gradient(#17c2a3d0,#17c2a3d0), url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 105vh; */
+}
+
+.service-icon{
+    height: 12rem;
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+}
+
+
+/* ================================*/
+   /*FOOTER SECTION*/
+/* ================================*/
+.footer-section{
+    padding-top: 1rem;
+    height:auto;
+    background: #584747;
+    padding: 0;
+}
+  .po{
+    color:#e4d1d1;
+    font-size: 2rem;
+  }
+
+/* ================================*/
+   /*COPY-RIGHT SECTION*/
+/* ================================*/
+.copyright-section{
+    background:#3c3535;
+    text-align: center;
+    padding: 1rem;
+}
+
+.p-copyright{
+    font-size: 2rem;
+    color:#dccece;
+}
+
+

@@ -1,0 +1,295 @@
+@media only screen and (max-width:1024px) {
+
+    section{
+        padding: 0;
+        width: 100%;
+    }
+
+    /* header section */
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+    .btn:link{
+        padding: 1.4rem 3.5rem;
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 3.2rem;
+    }
+    /* sevice section */
+    .services-section{
+        padding:5rem;
+    }
+    /* skill section */
+    .skill-section{
+        padding: 5rem 3rem;
+    }
+    /* team section */
+    .team-section .team-member{
+        width: 14rem;
+        height: 14rem;
+    }
+    .h3-team{
+        font-size: 2rem;
+    }
+    .team-section .p-team{
+        font-size: 1.3rem;
+        margin-top: 1.4rem;
+    }
+    .team-section .role-team{
+        font-size: 1.3rem;
+    }
+    .team-section .social-links ul li{
+        margin-top: 1.5rem;
+        margin-left: .5rem;
+    }
+    /* contact section */
+    .contact-section{
+        padding: 5rem;
+    }
+    .btn-con{
+        padding: 1.4rem 3.5rem;
+        font-size: 1.5rem;
+    }
+    /* footer section */
+    .footer-section{
+        padding: 3rem;
+    }
+
+    .logo{
+        margin-left: 4rem;
+    }
+       /* portflio section */
+    .cool{
+        margin-left: -5rem;
+        width:40rem;
+        height: 25rem;
+    }
+    /* galery section */
+    .galery-section{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:840px){
+        .cool{
+            margin-left: -5rem;
+            width: 33rem;
+            height:19rem;
+        }
+       
+    }
+
+ 
+
+@media only screen and (max-width:780px){
+    /* header section */
+    .testinonial-section{
+        display:block;
+    }
+    section{
+        padding: 0;
+        width: 100%;
+    }
+    /* about section */
+  .p-about{
+    font-size: 1.4rem;
+    width: 18rem;
+  }
+  .h3-about{
+    font-size: 2rem;
+  }
+  .role{
+    font-size: 1.3rem;
+  }
+  /* portfolio section  */
+   .cool{
+    width: 25rem;
+    height: 15rem;
+   }
+   .portfolio-section h2{
+    font-size: 3.5rem;
+}
+.portfolio-section p{
+    font-size: 1.5rem;
+}
+.portfolio-section h4{
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+}
+   .port-button{
+    padding: .8rem 1.5rem;
+}
+
+    
+      /* footer section */
+      .footer-section{
+        text-align: center;
+        height: auto;
+    }
+    .footer-section .po-res{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media only screen and (max-width:660px){
+    h1{
+        font-size:2.5rem;
+    }
+   h2{
+    font-size:3.7rem;
+   }
+   h3{
+    font-size:1.7rem;
+   }
+   p{
+    font-size:1.4rem;
+   }
+   .service-icon{
+    height: 10rem;
+   }
+   .cool{
+    width: 22rem;
+    height: 12rem;
+  }
+  /* footer section */
+  .footer-section .po-res{
+    font-size: 1.3rem;
+}
+
+}
+@media only screen and (max-width:580px){
+    h1{
+        font-size: 2rem;
+    }
+
+/* footer section */
+.footer-section{
+    text-align: center;
+    height: auto;
+}
+.po-res{
+    font-size: 1.2rem;
+}
+    
+}
+
+
+
+
+
+@media only screen and (max-width:412px) {
+    /* header section */
+    section{
+        padding: 0;
+    }
+    header{
+        height: 55vh;
+    }
+    h1{
+        font-size: 1.5rem;
+        padding-top:0;
+    }
+    .btn-header:link{
+        padding: 1.4rem 1rem;
+        font-size: 1.2rem;
+        margin-top:3rem;
+    }
+    /* service section */
+    h2{
+        font-size: 3.2rem;
+        padding-top: 3rem;
+    }
+    .team-h2{
+        font-size: 3rem;
+    }
+        .ps-res{
+            font-size:1.6rem;
+        }
+        .service-icon{
+            height: 10rem;
+        }
+        h3{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.4rem;
+        }
+        /* contact section */
+        .contact-section{
+            padding-bottom: 5rem;
+        }
+        .fon{
+            padding: 1rem;
+            font-size: 1rem;
+        }
+        .btn-submit{
+            font-size: 1.2rem;
+            padding: 1.2rem 1rem;
+        }
+        /* footer section */
+        .footer-section{
+            text-align: center;
+            height: auto;
+        }
+        .po-res{
+            font-size: 1.5rem;
+        }
+
+
+
+    
+
+      /* mixer-responsive */
+
+    section{
+        padding: 0;
+    }
+    .portfolio-filterr{
+        margin-left: 8rem;
+    }
+    .portfolio-filter button{
+        margin-top: 1.5rem;
+    }
+    .port-icon{
+    height: 15rem;
+    width: 25rem;
+     margin-left: 1rem;
+    }
+
+}
+@media only screen and (max-width:320px) {
+    h1{
+        font-size: 2rem;
+    }
+    .logo{
+        margin-left: 2rem;
+        height: 2.3rem;
+    }
+    .portfolio-filter{
+        margin-left: 3.5rem;
+    }
+    .cool{
+        height: 10.8rem;
+        width: 20.1rem;
+        }
+     h2{
+        font-size: 2rem;
+     }   
+     .clients-review{
+        width: 22rem;
+     }
+     .btn-submit{
+        padding: 1.5rem .4rem;
+     }
+     .btn-hero{
+        padding: 1.4rem 2rem;
+        font-size:1.4rem;
+     }
+    
+}

@@ -1,0 +1,50 @@
+@media only screen and (max-width:1024px){
+        .p-copyright{
+    font-size: 10px;
+    color:#dccece;
+        }
+
+
+
+    }
+
+
+    @media only screen and (max-width:840px){
+        
+    
+    }
+@media only screen and (max-width:780px){
+        
+    
+    }
+
+    @media only screen and (max-width:660px){
+        
+    
+    }
+
+    @media only screen and (max-width:580px){
+        
+    
+    }
+
+    @media only screen and (max-width:412px){
+        .p-copyright{
+    font-size: 9px;
+    color:#dccece;
+        }  
+      section {
+      padding: 40px 20px;
+      /* margin-top: 60px;  */
+      background-color: #f4f4f4;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .drop_pic-section{
+        margin-top: 60px;
+    }
+    }
+@media only screen and (max-width:320px){
+        
+    
+    }
