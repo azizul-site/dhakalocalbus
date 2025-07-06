@@ -135,3 +135,33 @@ ul li{
 }
 
 
+
+
+/* ABOUT_PAGE CSS */
+
+/* ================================*/
+   /* ABOUT SECTION*/
+/* ================================*/
+.about-section{
+    padding: 2rem;
+    margin-top: 7.2rem;
+    color:#fff;
+    text-align: center;
+    background: linear-gradient(#5a6563d0,#5a6563d0), url(img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 105vh;
+}
+.h3-abt{
+    padding-bottom: 1rem;
+}
+.h3-abt2{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.p-abt{
+    font-size: 1.5rem;
+}.p-abt2{
+    font-size: 1.5rem;
+}
