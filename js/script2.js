@@ -4,11 +4,11 @@
     ];
 
     const from = document.getElementById("from");
-    const suggestionsBox = document.getElementById("suggestions");
+    const soggestionsBox = document.getElementById("soggestions");
 
       from.addEventListener("input", function () {
       const input = this.value.toLowerCase();
-      suggestionsBox.innerHTML = "";
+      soggestionsBox.innerHTML = "";
 
       if (input.length === 0) return;
 
@@ -16,20 +16,20 @@
 
       matches.forEach(match => {
         const div = document.createElement("div");
-        div.classList.add("suggestion-item");
+        div.classList.add("soggestion-item");
         div.textContent = match;
 
         div.addEventListener("click", () => {
           from.value = match;
-          suggestionsBox.innerHTML = "";
+          soggestionsBox.innerHTML = "";
         });
 
-        suggestionsBox.appendChild(div);
+        soggestionsBox.appendChild(div);
       });
     });
 
     document.addEventListener("click", function (e) {
       if (!e.target.closest(".searchForm")) {
-        suggestionsBox.innerHTML = "";
+        soggestionsBox.innerHTML = "";
       }
     });
