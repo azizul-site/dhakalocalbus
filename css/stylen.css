@@ -43,7 +43,7 @@ button {
 
     #suggestions {
       max-height: 15rem;
-      margin-top: 7rem;
+      /* margin-top: 7rem; */
       overflow-y: auto;
       position: absolute;
       background: white;
@@ -57,15 +57,34 @@ button {
     .suggestion-item:hover {
       background-color: #f0f0f0;
     }
+
+    /* from lebel */
+    #soggestions {
+      max-height: 15rem;
+      /* margin-top: 7rem; */
+      overflow-y: auto;
+      position: absolute;
+      background: white;
+      width: 30rem;
+    }
+   
+    .soggestion-item {
+      padding: .8rem;
+      cursor: pointer;
+    }
+    .soggestion-item:hover {
+      background-color: #f0f0f0;
+    }
+    
     .searchForm {
       position: relative;
       width: 30rem;
     }
 
     /* to for */
-    .to_suggestion{
+    /* .to_suggestion{
       margin-top: 70px;
-    }
+    } */
 
   
     input {
