@@ -24,7 +24,16 @@
     <link rel="stylesheet" href="speacial.css">
 </head>
 <body>
-  <body>
+ <!-- Welcome screen with bus animation -->
+  <div id="welcome-screen">
+    <h1 class="welcome-text">🚌 Welcome to Local Bus Finder</h1>
+    <!-- <img
+      src="resources/img/bbus.jpg"
+      alt="Cartoon Bus"
+      class="bus"
+    /> -->
+  </div>
+
   <div class="home">
 <nav>
   <div class="navbar-container">
@@ -135,8 +144,16 @@
 
 
 
-
-  
+<!-- WELCOME MASSAGE CODE -->
+    <script>
+    // Show main content after animation ends
+    window.onload = function () {
+      setTimeout(function () {
+        document.getElementById('welcome-screen').style.display = 'none';
+        document.getElementById('main-content').style.display = 'block';
+      }, 5000);
+    };
+  </script>
    
     
         <!------SCRIPT.JS------>
