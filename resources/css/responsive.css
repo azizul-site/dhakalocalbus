@@ -123,10 +123,10 @@
    .port-button{
     padding: .8rem 1.5rem;
 }
+
 .contact-section{
     margin-top: 6rem;
 }
-    
     
       /* footer section */
       .footer-section{
@@ -225,6 +225,7 @@
         }
         /* contact section */
         .contact-section{
+            margin-top: 6rem;
             padding-bottom: 5rem;
         }
         .fon{
@@ -244,7 +245,17 @@
             font-size: 1.5rem;
         }
 
-
+         h1.welcome-text {
+      font-size: 3rem;
+       /* margin-bottom: 55vh; */
+      text-align: center;
+    
+    }
+    
+     .bus {
+      bottom: 38vh;
+    
+    }
 
     
 
