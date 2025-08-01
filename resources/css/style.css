@@ -217,9 +217,10 @@ ul li{
     height:auto;
 }
 
-/* WELCOM ANIMATION CODE */
+/* ================================*/
+   /* WELCOME SCREEN */
+/* ================================*/
 
-    /* Welcome screen */
     #welcome-screen {
       position: fixed;
       top: 0; left: 0;
@@ -230,7 +231,7 @@ ul li{
       justify-content: center;
       align-items: center;
       z-index: 9999;
-      animation: fadeOut 1s ease-in-out 4s forwards;
+      animation: fadeOut 1s ease-in-out 1s forwards;
     }
 
     @keyframes fadeOut {
