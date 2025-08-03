@@ -1,5 +1,32 @@
   const words = [
-'Abdullahpur','Adabor','Agargaon','Airport','Amin Bazar','Ansar Camp','Arambagh','Arambagh Notre Dame College','Asad Gate','Azampur','Azimpur','Babubazar','Badda','Badda Link Road','Bakshi Bazar','Baipayl','Balughat','Banani','Banashree','Banasree','Bangla College','Bangla Motor','Bashtola','Basumati','Bashabo','Bashundhara','Bashundhara (300 Feet Gate)','Bata Signal','Beribadh','Bijoy Sarani','Birulia','Board Bazar','Bosila','Chankhar Pul','Chasara','Chairman Bari','Chiriyakhana','Chittagong Road','City College','College Gate','Dainik Bangla Moor','Darussalam','Demra Staff Quarter','Dhamrai','Dhanmondi 27','Dhanmondi 32','Dhakeshwari','Dhour','Dhupkhola','Dholairpar','ECB Square','Eden College','Elevated Express Way','Fantasy Kingdom','Farmgate','Gabtoli','Gazipur Bypass','Gazipur Chourasta','Ghatar Char','Golap Shah Mazar','GPO','Gulistan','Gulshan 1','Gulshan Bridge','Hazipara','Hemayetpur','High Court','House Building','Ittefaq Moor','Jahangir Gate','Jalkuri','Jamuna Future Park','Japan Garden City','Jashimuddin','Jashimuddin (Uttara)','Jatrabari','Kadamtali','Kakali','Kakrail','Kalabagan','Kalshi','Kallyanpur','Kamalapur','Kamarpara','Katabon','Kawran Bazar','Kazipara','Keraniganj','Khamar Bari','Khejur Bagan','Khilgaon','Khilkhet','Konabari','Kuril Bishwa Road','Kuril Chourasta','Kurmitola','Madhya Badda','Madanpur','Malibaag Moor','Malibagh','Malibagh Railgate','Manik Mia Avenue','Manik Nagar','Matuail','Matsya Bhaban','Mazar Road','Meghna Ghat','Megnagar','Merul Badda','MES','Mill Gate','Mirpur 1','Mirpur 10','Mirpur 11','Mirpur 12','Mirpur 14','Mirpur 2','Moghbazar','Mohakhali','Motijheel','Mouchak','Mohammadpur','Mugdapara','Nabisco','Nadda','Nandan Park','Naya Bazar','New Market','Nila Market','Nilkhet','Nobinagar','Notun Bazar','Palashi','Pallabi','Paltan','Postogola','Press Club','Purobi','Rajarbag','Rajlakshmi','Rampura Bazar','Rampura Bridge','Ray Saheb Bazar','Rayerbag','Ring Road','Rupnagar','Sadarghat','Sainik Club','Sat Rasta','Savar','Sayadabad','Science Lab','Setu Road','Shahbag','Shahjadpur','Shantinagar','Shewra','Shewrapara','Shia Masjid','Shishu Mela','Shonir Akhra','Shyamoli','Sign Board','Sony Cinema Hall','Songsod Bhaban','Sonargao','Staff Road','Star Kabab','Station Road','Sultanpur','Technical','Tejgaon College (Farmgate)','Tolarbag','Tong','Tongi','Uttar Badda','Vashantek','Vulta','Wireless','Zia Uddyan','Zirani Bazar','Zirabo'
+  'Abdullahpur', 'Adabor', 'Agargaon', 'Airport', 'Amin Bazar', 'Ansar Camp', 'Arambagh', 'Ashulia', 'Asad Gate', 'Azampur',
+  'Azimpur', 'Baipayl', 'Babubazar', 'Badda', 'Badda Link Road', 'Bakshi Bazar', 'Balughat', 'Banani', 'Banasree', 'Bangla College',
+  'Bangla Motor', 'Bangladesh Bank', 'Bashtola', 'Bashabo', 'Bashundhara', 'Bashundhara (300 Feet Gate)', 'Bata Signal',
+  'Beribadh', 'Beribadh Tin Rastar Moor', 'Bijoy Sarani', 'Birulia', 'Birma', 'Board Bazar', 'Bosila', 'Bot tola', 'Cantonment',
+  'Chairman Bari', 'Chalantika Mor', 'Chandra', 'Chankhar Pul', 'Chasara', 'Chiriyakhana', 'Chittagong Road', 'City College',
+  'College Gate', 'Dainik Bangla Moor', 'Darussalam', 'Dayagonj', 'Demra Staff Quarter', 'Dhamrai', 'Dhanmondi', 'Dhanmondi 15',
+  'Dhanmondi 27', 'Dhanmondi 32', 'Dhour', 'Dhakeshwari', 'Dipon', 'Dholairpar', 'Dia Bari', 'Eden College', 'ECB Square',
+  'Fakirapul', 'Fantasy Kingdom', 'Farmgate', 'Fulbaria', 'Gabtoli', 'Gandaria', 'Gazipur Bypass', 'Gazipur Chourasta',
+  'Ghatar Char', 'Golap Shah Mazar', 'Golapbagh Chowrasta', 'Golshan 1', 'Golshan 2', 'GPO', 'Gulistan', 'Hemayetpur',
+  'Hazipara', 'Hazaribag', 'Hasnabad', 'High Court', 'House Building', 'IDB', 'Itihash', 'Ittefaq Moor', 'Jahangir Gate',
+  'Jakir Hossain Road', 'Jamgora', 'Jamuna Future Park', 'Janapoth Moor', 'Japan Garden City', 'Jashimuddin', 'Jashimuddin (Uttara)',
+  'Jarun', 'Jatrabari', 'Jigatola', 'Joydebpur', 'Jurain', 'Kakali', 'Kakrail', 'Kalabagan', 'Kalshi', 'Kallyanpur', 'Kamalapur',
+  'Kamarpara', 'Kamrangirchar', 'Kanchan Bridge', 'Kanchpur', 'Kanak', 'Katabon', 'Kawlar', 'Kawran Bazar', 'Kazipara', 'Kazla',
+  'Kadamtali', 'Keraniganj', 'Khamar Bari', 'Khilgaon', 'Khilgaon flyover', 'Khilgaon Khidmah Hospital', 'Khilkhet', 'Kochukhet',
+  'Kollyanpur', 'Konabari', 'Kuchimura', 'Kuril Bishwa Road', 'Kuril Chourasta', 'Kuril Flyover', 'Madanpur', 'Madhya Badda',
+  'Malibaag Moor', 'Malibagh', 'Malibagh Railgate', 'Manik Mia Avenue', 'Manik Nagar', 'Manikganj', 'Matsya Bhaban', 'Matuail',
+  'Maowa', 'MES', 'Merul Badda', 'Metro Hall', 'Mill Gate', 'Mirpur 1', 'Mirpur 2', 'Mirpur 6', 'Mirpur 10', 'Mirpur 11',
+  'Mirpur 12', 'Mirpur 13', 'Mirpur 14', 'Mirpur (DOHS)', 'Mochak', 'Mohakhali', 'Mohammadpur', 'Mogbazar', 'Motijheel',
+  'Mouchak', 'Mugdapara', 'Nabisco', 'Nadda', 'Nandan Park', 'Narsinghapur', 'Naya Bazar', 'New Market', 'Nila Market', 'Nilkhet',
+  'Nimtola', 'Nobinagar', 'Notun Bazar', 'Paltan', 'Pallabi', 'Panthopoth', 'Palli Bidyut', 'Police Plaza', 'Postogola',
+  'Press Club', 'Purobi', 'Rajendrapur', 'Rajlakshmi', 'Rajarbag', 'Rampura Bazar', 'Rampura Bridge', 'Ray Saheb Bazar',
+  'Rayerbag', 'Ring Road', 'Rupnagar', 'Sadarghat', 'Sainik Club', 'Salimullah Road', 'Sanarpar', 'Sat rasta', 'Sayadabad',
+  'Sayapabad', 'Science Lab', 'Savar', 'Savar Cantonment', 'Shewra', 'Shewrapara', 'Shahbag', 'Shahjadpur', 'Shampur',
+  'Shankar', 'Shantinagar', 'Shia Masjid', 'Shibu Market', 'Shishu Mela', 'Shonbari Sreenagar', 'Shonir Akhra', 'Showari Ghat',
+  'Shukrabad', 'Shyamoli', 'Sign Board', 'Sony Cinema Hall', 'South Banasree', 'Sreepur', 'Staff Road', 'Star Kabab',
+  'Station Road', 'Suvidha', 'Surabari', 'Tajmahal Road', 'Taltola', 'Technical', 'Tejgaon College (Farmgate)', 'Tikatuli',
+  'Tingi', 'Tongi', 'Tolarbag', 'Uttar Badda', 'Uttara', 'Vashantek', 'Victoria Park', 'Vulta', 'Wireless', 'Zia Uddyan',
+  'Zarani Bazar', 'Zirani Bazar', 'Zirabo'
 
 
 
