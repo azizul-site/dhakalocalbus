@@ -112,7 +112,7 @@ ul li{
 .footer-section{
     padding-top: 1rem;
     height:auto;
-    background: #584747;
+    background:seagreen;
     padding: 0;
 }
   .po{
@@ -124,7 +124,7 @@ ul li{
    /*COPY-RIGHT SECTION*/
 /* ================================*/
 .copyright-section{
-    background:#3c3535;
+    background:rgb(46, 112, 74);
     text-align: center;
     padding: 1rem;
 }
