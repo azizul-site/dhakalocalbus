@@ -13,7 +13,7 @@
 
     /* Navbar styles */
     nav {
-      background-color: rgb(57, 55, 55);
+      background-color:dodgerblue;
       position: fixed;
       top: 0;
       width: 100%;
@@ -34,7 +34,7 @@
     }
 
     .navbar-container a:hover {
-      background-color: #575757;
+      background-color: seagreen;
     }
 
     .nav-menu {
@@ -49,9 +49,9 @@
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: #444;
+      background-color:seagreen;
       min-width: 16rem;
-      top: 4.8rem;
+      top: 4.7rem;
       z-index: 1000;
     }
 
