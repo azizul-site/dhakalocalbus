@@ -1,5 +1,4 @@
  * {
-      font-size: 2rem;
       box-sizing: border-box;
       margin: 0;
       padding: 0;
@@ -32,6 +31,7 @@
       color: white;
       text-decoration: none;
       padding: 1.4rem 1.6rem;
+      font-size: 2rem;
     }
 
     .navbar-container a:hover {
@@ -70,6 +70,15 @@
       color: white;
       cursor: pointer;
     }
+    .logo-p{
+      display: inline-block;
+      font-size: 18px;
+      letter-spacing: 3px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #dde8ec, #d5df49);
+      background-clip:text;
+     -webkit-text-fill-color: transparent;
+    }
 
     /* Responsive */
     @media (max-width: 768px) {
@@ -91,6 +100,9 @@
       .nav-menu.show {
         display: flex;
       }
+      .navbar-container a{
+        padding: 0;
+      }
 
       .dropdown-content {
         position: static;
@@ -100,6 +112,10 @@
       }
       .logo{
         margin-left: 0;
+      }
+      .logo-p{
+        font-size: .9rem;
+        padding: .7rem;
       }
     }
 
