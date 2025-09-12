@@ -112,7 +112,7 @@ ul li{
 .footer-section{
     padding-top: 1rem;
     height:auto;
-    background:seagreen;
+    background:#1e2d46;
     padding: 0;
 }
   .po{
@@ -120,11 +120,24 @@ ul li{
     font-size: 2rem;
   }
 
+  .footer-icon{
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+  .footer-link{
+    text-decoration: none;
+    color: #e4d1d1;
+  }
+  .footer-icon:hover{
+      transform: scale(1.2) rotate(10deg); 
+  color: #ff4c4c; /* Hover color */
+  text-shadow: 0 0 10px rgba(255, 76, 76, 0.8);
+  }
 /* ================================*/
    /*COPY-RIGHT SECTION*/
 /* ================================*/
 .copyright-section{
-    background:rgb(46, 112, 74);
+    background:#38455b;
     text-align: center;
     padding: 1rem;
 }
@@ -273,3 +286,8 @@ ul li{
       from { opacity: 0; }
       to { opacity: 1; }
     }
+
+
+
+
+    
