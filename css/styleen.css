@@ -25,6 +25,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 1.4rem 2rem;
+
     }
 
     .navbar-container a {
@@ -100,9 +101,9 @@
       .nav-menu.show {
         display: flex;
       }
-      .navbar-container a{
+      /* .navbar-container a{
         padding: 0;
-      }
+      } */
 
       .dropdown-content {
         position: static;
@@ -117,6 +118,14 @@
         font-size: .9rem;
         padding: .7rem;
       }
+
+      /* MORE BUTTON */
+
+      .more-bttn{
+        margin-left: 0;
+      }
+
+
       /* footer section */
       .footer-icon{
         font-size: 1.5rem;
