@@ -152,6 +152,9 @@ ul li{
 
 /* HOME MORE BUTTON */
 
+.search-p{
+  text-align: left;
+}
 .more-btn{
   color: white;
   padding: .3rem;
@@ -164,7 +167,6 @@ ul li{
   padding: .3rem;
   border: .1px solid black;
   border-radius: .6rem;
-  margin-left: 3rem;
   text-decoration: none;
 }
 
@@ -302,6 +304,7 @@ ul li{
       from { opacity: 0; }
       to { opacity: 1; }
     }
+
 
 
 
